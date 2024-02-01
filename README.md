@@ -1,3 +1,5 @@
+![ETL Image](https://raw.githubusercontent.com/fgsalomao/Crowdfunding_ETL/main/ETL.png)
+
 # Crowdfunding_ETL
 ETL pipeline (Python, Pandas, RegEx, ERD, table schema Postgres SQL)
 
@@ -23,5 +25,3 @@ ETL pipeline (Python, Pandas, RegEx, ERD, table schema Postgres SQL)
 - Design a table schema.
 - Import CSV files into a PostgreSQL database.
 - Discuss the benefits and challenges of the ETL process.
-
-![ETL Image]([https://example.com/path/to/your/image.png](https://github.com/fgsalomao/Crowdfunding_ETL/blob/main/ETL.png)https://github.com/fgsalomao/Crowdfunding_ETL/blob/main/ETL.png)
