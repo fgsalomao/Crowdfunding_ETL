@@ -24,4 +24,4 @@ ETL pipeline (Python, Pandas, RegEx, ERD, table schema Postgres SQL)
 - Import CSV files into a PostgreSQL database.
 - Discuss the benefits and challenges of the ETL process.
 
-![ETL Image](https://example.com/path/to/your/image.png)
+![ETL Image]([https://example.com/path/to/your/image.png](https://github.com/fgsalomao/Crowdfunding_ETL/blob/main/ETL.png)https://github.com/fgsalomao/Crowdfunding_ETL/blob/main/ETL.png)
