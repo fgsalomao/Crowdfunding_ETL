@@ -1,7 +1,7 @@
-![ETL Image](https://raw.githubusercontent.com/fgsalomao/Crowdfunding_ETL/main/ETL.png)
-
-# Crowdfunding_ETL
+# Crowdfunding ETL
 ETL pipeline (Python, Pandas, RegEx, ERD, table schema Postgres SQL)
+
+![ETL Image](https://raw.githubusercontent.com/fgsalomao/Crowdfunding_ETL/main/ETL.png)
 
 # Project Scope
 
