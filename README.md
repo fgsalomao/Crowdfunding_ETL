@@ -28,7 +28,7 @@ ETL pipeline (Python, Pandas, RegEx, ERD, table schema Postgres SQL)
 
 ## Benefits :white_check_mark:
 
-### 1. Data Integration :arrows_alt:
+### 1. Data Integration :chart_with_upwards_trend:
 - Facilitates the integration of data from various sources into a unified format, ensuring consistency and coherence.
 
 ### 2. Improved Data Quality :bar_chart:
