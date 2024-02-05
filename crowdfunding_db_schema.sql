@@ -2,16 +2,6 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "contacts" (
-    "contact_id" int   NOT NULL,
-    "first_name" varchar   NOT NULL,
-    "last_name" varchar   NOT NULL,
-    "email" varchar   NOT NULL,
-    CONSTRAINT "pk_contacts" PRIMARY KEY (
-        "contact_id"
-     )
-);
-
 CREATE TABLE "category" (
     "category_id" int   NOT NULL,
     "category_name" varchar   NOT NULL,
@@ -28,11 +18,19 @@ CREATE TABLE "subcategory" (
      )
 );
 
+CREATE TABLE "contacts" (
+    "contact_id" int   NOT NULL,
+    "first_name" varchar   NOT NULL,
+    "last_name" varchar   NOT NULL,
+    "email" varchar   NOT NULL,
+    CONSTRAINT "pk_contacts" PRIMARY KEY (
+        "contact_id"
+     )
+);
+
 CREATE TABLE "campaign" (
     "cf_id" int   NOT NULL,
     "contact_id" int   NOT NULL,
-    "category_id" int   NOT NULL,
-    "subcategory_id" int   NOT NULL,
     "company_name" varchar   NOT NULL,
     "description" varchar   NOT NULL,
     "goal" float   NOT NULL,
@@ -40,9 +38,11 @@ CREATE TABLE "campaign" (
     "outcome" varchar   NOT NULL,
     "backers_count" int   NOT NULL,
     "country" varchar   NOT NULL,
-    "currency" int   NOT NULL,
-    "launch_date" timestamp   NOT NULL,
-    "end_date" timestamp   NOT NULL,
+    "currency" varchar   NOT NULL,
+    "launch_date" date  NOT NULL,
+    "end_date" date   NOT NULL,
+    "category_id" int   NOT NULL,
+    "subcategory_id" int   NOT NULL,
     CONSTRAINT "pk_campaign" PRIMARY KEY (
         "cf_id"
      )
@@ -56,4 +56,3 @@ REFERENCES "category" ("category_id");
 
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("subcategory_id")
 REFERENCES "subcategory" ("subcategory_id");
-
